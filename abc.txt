@@ -1,1 +1,38 @@
-This is my first file in ms 
+How to configure Git to our GitHub account
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+cd mean change directory
+cd /c this will go to c drive 
+if we want to move on desktop
+cd ~/desktop and press enter key
+ls command wil show all files in the directory
+cd git/	(folder name in c drive) this will enter in git folder
+how to configur our git account to github 
+you need to copy your github repository link
+like(https://github.com/abdulrayouf/testgit2.git)
+git config --global user.name "abdulrayouf"
+git config --global user.email abdulraufcoejrw@gmail.com
+git clone https://github.com/abdulrayouf/testgit2.git
+create a file in that repository just you create in your github 
+that folder will you show in the folder from where you are accessing you github accout through git
+type some text in your file 
+you not need add an extension 
+
+how to upload file on your github accont you just created in that folder which you are created in the folder
+git add file name
+to cheak the status of the file 
+git status
+how to commit file
+git commit -m "any message which you want to write" file name and extension
+how to transfer your file on github accout 
+git push -u origin main
+
+how to change 
+git commit -m "message" file name and extension
+git push -u origin main
+
+
+
+
+
